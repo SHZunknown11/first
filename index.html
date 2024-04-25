@@ -2,109 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing = "20">
-        <tr>
-            <td><img src="cropped_image (1).png" alt="Mohammad Taha picture"></td>
-            <td>    
-                <h1>Shazan</h1>
-                <p>
-                    <em>
-                        Graduated high-school on <strong> June 18, 2023.</strong>
-                    </em>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quasi inventore vero similique iste reiciendis
-                    delectus eos quo error ut!
-            
-                </p>
-            </td>
-        </tr>
-    </table>
+  <div class="top">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-png">
+    <h1>I'm Mohammad</h1>
+    <h2 class="programmer">a <span>pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
+    <img src="images/mountain.png" alt="mountain-png">
+  </div>
 
-    <hr size="5" noshade>
-
-
-    <h3>Savior International Schools. </h3>
-    <ul>
-        <li>Grade 10</li>
-        <ul>
-            <li>93.99%</li>
-            <li>Got Scholarship</li>
-        </ul>
-        <li>Grade 11</li>
-        <ul>
-            <li>98%</li>
-        </ul>
-
-        <li>Grade 12</li>
-        <ul>
-            <li>97%</li>
-        </ul>
-    </ul>
-    <hr size="5" noshade>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Job</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2022</td>
-                <td>English Club</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta.</td>
-
-            </tr>
-            <tr>
-                <td>2023</td>
-                <td>YouTube Content Manager</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta.</td>
-
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Teacher</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta.</td>
-
-            </tr>
-        </tbody>
-    </table>
-    <hr size="5" noshade>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <th>Python Programming</th>
-            <td>⭐⭐⭐</td>
-            <th>Web development</th>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <th>Content Creation</th>
-            <td>⭐⭐⭐</td>
-            <th>3D designing</th>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <th>Ethical Hacking</th>
-            <td>⭐</td>
-            <th>Video Editing</th>
-            <td>⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr size="5" noshade>
-    <h3><a href="courses.html">Courses Enrolled</a></h3>
-    <h3><a href="contact.html">Contact me</a></h3>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/profile.png" alt="profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">An aspiring Computer Science Student who is passionate about producing efficient, reliable and readable
+        code.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/web-development.png" alt="code-img">
+        <h3>Web Developer</h3>
+        <p>Front-end Web Developemnt</p>
+      </div>
+      <div class="skill-row">
+        <img class="chillies-img" src="images/web.png" alt="web-img">
+        <h3>Coding skill</h3>
+        <p>Intermidiate to Advance Python programmer.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="hack-img" src="images/hacker.png" alt="hack-img">
+        <h3>Ethical Hacking</h3>
+        <p> Beginner Level of Ethical Hacking.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="video-img" src="images/montage.png" alt="video-editing-img">
+        <h3>Video Editing</h3>
+        <p> Professional Level of Video Editing and Video Compiling.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="modeling-img" src="images/3d-model.png" alt="3d-img">
+        <h3>3D Designing</h3>
+        <p> Professional Level of Video Editing and Video Compiling.
+        </p>
+      </div>      
+    </div>
+    <hr class="last">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>For Colaboration and Communication.</h3>
+      <p class="contact-message">If you would like to colaborate on a project or talk to me, you can contact me via email or other social media platforms.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">Email</a>
+    <a class="footer-link" href="https://t.me/@SHZunknown11">Telegram</a>
+    <a class="footer-link" href="https://github.com/phillipai">Github</a>
+    <p class="copyright"> © 2024 Mohammad Taha.</p>
+  </div>
 </body>
 
 </html>
